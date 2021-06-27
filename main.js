@@ -6,7 +6,7 @@ var myName = 'username';
 //const === constant (SABİT)
 
 // String
-let email = 'oguzbeyaz06@gmail.com';
+let email = '#';
 let firstName = 'Oğuzhan';
 let lastName = 'Beyaz';
 let fullName = firstName +' '+ lastName;
@@ -118,8 +118,7 @@ function play() {
     console.log("Hello play");
 }
 play();
-//aşağıdaki oluşturulan fonksiyon herzaman üstde tanımlanmalıdır yoksa
-//fonksiyon tanımlandığında hata verir.
+
 const speak = function (name = 'luigi' , age = 22) {
   console.log(`good day mr ${name}.im ${age} years old thanks.`);  
 };
@@ -160,7 +159,7 @@ let resultTwo = name.toUpperCase();
 
 console.log(resultTwo);
 
-//callbacks & foreach ÇOK İYİ
+
 let people = ['mario','luigi','ryu','shaun','chun-li'];
 people.forEach(function(person,index){
     console.log(index,person);
